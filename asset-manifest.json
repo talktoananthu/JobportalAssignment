@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/JobportalAssignment/static/css/main.bca5c52e.css",
+    "main.js": "/JobportalAssignment/static/js/main.d8772d09.js",
+    "index.html": "/JobportalAssignment/index.html",
+    "main.bca5c52e.css.map": "/JobportalAssignment/static/css/main.bca5c52e.css.map",
+    "main.d8772d09.js.map": "/JobportalAssignment/static/js/main.d8772d09.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bca5c52e.css",
+    "static/js/main.d8772d09.js"
+  ]
+}
