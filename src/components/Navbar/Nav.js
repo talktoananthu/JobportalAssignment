@@ -113,7 +113,7 @@ function Nav() {
                 )}
             </div>
 
-            <Description search={search} SetSearch={SetSearch} SetExperience={SetExperience} experience={experience} />
+            <Description search={search} SetSearch={SetSearch} SetExperience={SetExperience} experience={experience} location={location} />
         </div>
     );
 }

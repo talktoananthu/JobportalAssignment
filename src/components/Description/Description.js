@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './Description.css';
 import axios from 'axios';
 
-function Description({ search, SetSearch, SetExperience, experience }) {
+function Description({ search, experience, location }) {
     const Url = 'https://raw.githubusercontent.com/talktoananthu/JobPortal/refs/heads/main/job.json';
     const [jobs, SetJobs] = useState([]);
     const [filteredJobs, setFilteredJobs] = useState([]); 
@@ -11,7 +11,6 @@ function Description({ search, SetSearch, SetExperience, experience }) {
         axios.get(Url)
             .then((response) => {
                 SetJobs(response.data.jobs);
-                setFilteredJobs(response.data.jobs); 
             })
             .catch((error) => console.error("Error fetching data:", error));
     }, []);
@@ -27,8 +26,12 @@ function Description({ search, SetSearch, SetExperience, experience }) {
             filtered = filtered.filter(job => job.title.includes(search));
         }
 
+        if (location) {
+            filtered = filtered.filter(job => job.location.includes(location));
+        }
+
         setFilteredJobs(filtered);
-    }, [search, experience, jobs]);
+    }, [search, experience, location, jobs]);
 
     return (
         <div className="Description">
