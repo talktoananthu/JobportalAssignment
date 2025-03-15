@@ -1,0 +1,165 @@
+.Nav {
+    height: 178px;
+    width: 100vw; 
+    background-color: black;
+   
+    padding: 0;
+    margin: 0;
+    position: fixed; 
+    top: 0;
+    display: block;
+}
+.Buttons{
+    display: flex;
+    height: 100px;
+    border-bottom: 1px solid white;
+   width: 100%;
+
+}
+.title{
+    font-size: medium;
+    
+}
+.Job{
+    height: 50px;
+    width: 100px;
+    margin-left: 170px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    background: white;
+    outline: none;
+    border: none;
+}
+.Applied{
+    height: 50px;
+    width: 115px;
+    margin-left: 40px;
+    margin-top: 10px;
+    display: flex; 
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+   
+    color: black;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+}
+.Applied:hover{
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+.suggestions{
+    background-color: aliceblue;
+    position: absolute;
+    height: auto;
+    min-height: 64px;
+    max-height: 286px;
+    margin-top: 4px;
+    margin-left: 48px;
+    border-radius: 6px;
+    padding-left: 4px;
+    width: 22%;
+    
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    z-index: 1000;
+    outline: none;
+    justify-items: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+.listCart{
+    list-style: none;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    padding-left: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.Locsuggestions{
+    background-color: aliceblue;
+    position: absolute;
+    height: auto;
+    min-height: 64px;
+    max-height: 286px;
+    margin-top: 4px;
+    margin-left: 651px;
+    border-radius: 6px;
+    padding-left: 4px;
+    width: 22%;
+    border: 1px solid gray;
+    display: flex
+;
+    flex-direction: column;
+    overflow-y: auto;
+    z-index: 1000;
+    outline: none;
+    justify-items: center;
+    align-items: center;
+    overflow-x: hidden;
+}  
+.listLoc{
+    list-style: none;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    padding-left: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.Job:hover{
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+
+.Profile{
+    height: 77px;
+    width: 77px;
+    border-radius: 50%;
+    margin-left: 700px;
+    margin-top: 10px;
+}
+.Queries{
+    
+    height: 50px;
+    width: 100%;
+
+}
+.search{
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 5px;
+    width: 300px;
+    background-image: url('./search.png'); 
+    background-repeat: no-repeat;
+    background-size: 25px; 
+    background-position: 10px center; 
+    padding-left: 40px; 
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.Experience{
+    height: 39px;
+    width: 187px;
+    margin-left: 31px;
+    border-radius: 5px;
+    background-color:black;
+    color: white;
+}

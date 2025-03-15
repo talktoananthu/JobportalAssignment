@@ -1,0 +1,155 @@
+.Description{
+    position: relative;
+    margin-top:  -170px;
+}
+
+.Content{
+    position: fixed;
+    height: 440px;
+    width: 24%;
+    background-color: transparent;
+    margin-top: 14px;
+    margin-left: 40px;
+    border-right: 1px solid black;
+    padding-left: 10px;
+}
+.Filter{
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.Fulltime{  
+    height: 15px;
+    width: 15px;
+    accent-color: black;
+}
+.FilterDesc{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.WorkSchedule{
+    font-weight: 10px;
+    color: gray;
+}
+.OpeningAvailable {
+    width: 900px;
+    color: black;
+    margin-top: 200px;
+    margin-left: 464px;
+}
+
+.Available {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 10px;
+    width: 20%;
+    z-index: 10;
+    font-size: 18px;
+    font-weight: bold;
+   
+}
+
+.Openings {
+    height: 60vh;
+    width: 113%;
+    overflow-y: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.JobDetails {
+    height: 250px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.CompanyDetail{
+    height: 177px;
+    width: 230px;
+    background-color: aqua;
+    margin-left: 6px;
+    margin-top: 6px;
+    position: relative;
+  
+}
+.Date{
+    position: absolute;
+    height: 24px;
+    width: 39%;
+    border: 1px solid black;
+    margin-top: 14px;
+    margin-left: 14px;
+    border-radius: 10px;
+    align-items: center;
+    justify-items: center;
+    padding-top: 4px;
+    padding-left: 10px;
+    background-color: white;
+    font-family: 'Poppins', 'Inter', 'Manrope', sans-serif;
+    font-size: small;
+}
+.Companytitle{
+    position: absolute;
+    margin-top: 59px;
+    margin-left: 32px;
+    font-family: 'Poppins', 'Inter', 'Manrope', sans-serif
+}
+.Jobtitle{
+    position: absolute;
+    margin-top: 104px;
+    margin-left: 24px;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Poppins', 'Inter', 'Manrope', sans-serif;
+    color: black;
+}
+.JobType{
+    margin-top: 8px;
+    margin-left: 10px;
+    color: black;
+    height: 18px;
+    width: 20%;
+    border: 1px solid black;
+    padding-right: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 8px;
+    padding-left: 1px;
+}
+.BelowDesc{
+   display: flex;
+   font-family: 'Poppins', 'Inter', 'Manrope', sans-serif;
+   font-weight: bolder;
+}
+.Apply{
+    margin-left: 19px;
+    margin-top: 10px;
+    height: 35px;
+    width: 71px;
+    border-radius: 27px;
+    background: black;
+    color: white;
+    outline: none;
+     border: 0;
+}
+.Apply:hover{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+.Location{
+    font-size: 11px;
+    margin-left: 20px;
+    margin-top: -5px;
+    font-family: 'Poppins', 'Inter', 'Manrope', sans-serif;
+    color: gray;
+}
